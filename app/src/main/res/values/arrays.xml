@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payment_option">
+        <item>Credit or Debit Card</item>
+        <item>Online Banking</item>
+        <item>Cash On Delivery</item>
+    </string-array>
+</resources>
