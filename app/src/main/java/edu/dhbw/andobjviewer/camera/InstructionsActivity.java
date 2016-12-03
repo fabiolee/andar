@@ -1,4 +1,4 @@
-package edu.dhbw.andobjviewer;
+package edu.dhbw.andobjviewer.camera;
 
 import edu.dhbw.andarmodelviewer.R;
 import android.app.Activity;

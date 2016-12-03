@@ -13,7 +13,6 @@
 <string name="app_description"> AndAR permite visualizar modelos wavefront (.obj) em marcadores de Realidade Aumentada.</string>
 <string name="take_screenshot">Tire uma foto</string><string name="screenshotsaved">Foto salva!</string><string name="screenshotfailed">Falha ao tirar foto: </string>
 <string name="choose_custom_model">Selecione um arquivo de modelo</string>
-<string name="select_model">selecione o modelo</string>
 <string name="instructions">Instruções</string>
 <string name="wrong_file">Selecione um modelo arquivo .obj </string>
 <string name="choose_a_model">Escolha o modelo:</string>

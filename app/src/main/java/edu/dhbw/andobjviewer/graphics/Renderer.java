@@ -19,14 +19,13 @@
  */
 package edu.dhbw.andobjviewer.graphics;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Vector;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import edu.dhbw.andobjviewer.AugmentedModelViewerActivity;
+import edu.dhbw.andobjviewer.camera.AugmentedModelViewerActivity;
 import edu.dhbw.andobjviewer.models.Vector3D;
 import edu.dhbw.andobjviewer.util.MemUtil;
 

@@ -13,7 +13,11 @@
 
     <string name="label_account">Account</string>
     <string name="label_camera">Camera</string>
+    <string name="label_camera_allow_access">You need to allow access to Camera</string>
+    <string name="label_camera_deny">Camera Denied</string>
+    <string name="label_cart">My Cart</string>
     <string name="label_cash_on_delivery">Duit kasi mari. Cepat! Cepat!</string>
+    <string name="label_checkout">PROCEED TO CHECKOUT</string>
     <string name="label_coming_soon">Coming Soon</string>
     <string name="label_credit_card_number">Credit Card Number</string>
     <string name="label_expire_date">Expire Date (MM/YY)</string>
@@ -23,10 +27,6 @@
     <string name="label_order">Order</string>
     <string name="label_secure_checkout">Secure Checkout</string>
     <string name="label_thank_you">Thank you for the payment</string>
-
-    <string name="label_cart">My Cart</string>
-    <string name="label_checkout">PROCEED TO CHECKOUT</string>
-
     <string name="label_users">Hi, Vincent</string>
 
 <string name="loading">Loading. Please wait...</string>

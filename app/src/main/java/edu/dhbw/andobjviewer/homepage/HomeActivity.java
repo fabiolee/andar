@@ -14,7 +14,7 @@ import java.util.List;
 
 import edu.dhbw.andarmodelviewer.R;
 import edu.dhbw.andobjviewer.CartActivity;
-import edu.dhbw.andobjviewer.ModelChooser;
+import edu.dhbw.andobjviewer.camera.ModelChooser;
 import edu.dhbw.andobjviewer.ProfileActivity;
 import edu.dhbw.andobjviewer.securecheckout.SecureCheckoutActivity;
 

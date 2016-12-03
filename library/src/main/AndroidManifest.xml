@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="edu.dhbw.andopenglcam"
-      android:versionName="1.0.0" android:versionCode="1">
+    package="edu.dhbw.andopenglcam"
+    android:versionName="1.0.0"
+    android:versionCode="1">
 
-<uses-permission android:name="android.permission.CAMERA"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-<uses-feature android:name="android.hardware.camera" />
-<uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-<supports-screens android:smallScreens="true" 
-                  android:normalScreens="true"
-                  android:largeScreens="true" 
-                  android:anyDensity="true" /> 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"/>
 </manifest> 

@@ -14,10 +14,20 @@ public class AndroidComponentUtil {
         new AlertDialog.Builder(context)
                 .setMessage(R.string.label_coming_soon)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                    @Override public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
+                    @Override public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
                     }
                 })
+                .create()
+                .show();
+    }
+
+    public static void showMessageDialog(Context context, int messageId,
+            DialogInterface.OnClickListener okListener) {
+        new AlertDialog.Builder(context)
+                .setMessage(messageId)
+                .setPositiveButton(android.R.string.ok, okListener)
+                .setNegativeButton(android.R.string.cancel, null)
                 .create()
                 .show();
     }
