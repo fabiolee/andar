@@ -16,10 +16,11 @@ allprojects {
 
 ext {
     compileSdkVersion = 25
-    buildToolsVersion = "25.0.0"
+    buildToolsVersion = "25.0.1"
     minSdkVersion = 21
     targetSdkVersion = 22
+    versionCode = 1
+    versionName = "0.1.1"
 
     supportLibVersion = '25.0.1'
-    playServicesVersion = '9.8.0'
 }
